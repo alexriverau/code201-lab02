@@ -61,3 +61,44 @@ if (mars === 'yes' || mars === 'y') {
 } else {
   alert('Next time please respond only (y)es or (n)o, ' + visitor + '.');
 }
+
+
+
+// let myLuckyNumber = 7;
+
+
+// while (!myLuckyNumber);
+// {
+//   let luckyNumber = prompt('What is my Lucky number?'); {
+//     if (luckyNumber === myLuckyNumber); {
+//       alert('test');
+//     } else  {
+//       alert ('no');
+//     }
+//   }
+// }
+
+// const fruitNames = ['mandarin', 'pear', 'apple'];
+// console.log(fruitNames);
+
+// const fruitNameGuess = prompt(
+//   'What is the name of my favorite fruit?'
+// ).toLowerCase();
+// // if (fruitName === fruitNames[0]) {
+// //   alert ('Yes! Mandarin is my favorite fruit!');
+// // } else if (fruitName === fruitNames [1]) {
+// //   alert ('Very close! Pear is my second favorite fruit!');
+// // } else if (fruitName === fruitNames [2]) {
+// //   alert ('Good guess! Apple is my third favorite fruit!');
+// // } else {
+// //   alert ('Good choice but not one of my favorites!');
+// // }
+
+// for (let i = 0; i < fruitNames.length; i++) {
+//   const fruitName = fruitNames[i];
+
+//   if (fruitNameGuess === fruitName);
+//   {
+//     alert('Yes! ' + fruitNameGuess + ' is my favorite fruit!');
+//   }
+// }
