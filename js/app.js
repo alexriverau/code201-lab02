@@ -68,7 +68,8 @@
 
 // while (totalChances && !answer) {
 //   let response = prompt(
-//     'What is my lucky number? Chances left: ' + totalChances);
+//     'What is my lucky number? Chances left: ' + totalChances
+//   );
 //   if (response === correctAnswer) {
 //     alert('You got it! ' + response + ' is my lucky number!');
 //     answer = true;
@@ -76,21 +77,22 @@
 //     alert('Lower! hint: single digit');
 //   } else if (response < correctAnswer) {
 //     alert('Higher!');
-//   } else (totalChances <= 0); {
+//   } else totalChances <= 0;
+//   {
 //     alert('My lucky number is 7');
 //   }
 //   totalChances--;
 // }
 
-const fruitNames = ['mango', 'pear', 'mandarin'];
-console.log(fruitNames);
+// const fruitNames = ['mango', 'pear', 'mandarin'];
+// console.log(fruitNames);
 
-const fruitGuess = prompt('What is my favorite fruit?').toLowerCase();
+// const fruitGuess = prompt('What is my favorite fruit?').toLowerCase();
 
-for (let i = 0; i < fruitNames.length; i++) {
-  const fruitName = fruitNames[i];
-  console.log(i, fruitName);
-  if (fruitGuess === fruitName) {
-    alert('Yes! ' + fruitGuess + ' is my favorite fruit!');
-  }
-}
+// for (let i = 0; i < fruitNames.length; i++) {
+//   const fruitName = fruitNames[i];
+//   console.log(i, fruitName);
+//   if (fruitGuess === fruitName) {
+//     alert('Yes! ' + fruitGuess + ' is my favorite fruit!');
+//   }
+// }
